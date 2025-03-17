@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="173" height="72" viewBox="0 0 173 72">
+  <path 
+    style="fill: none; stroke: #05445e; stroke-linecap: round; stroke-width: 15;" 
+    d="M50 0 C77.614 0 100 22.386 100 50 100 77.614 77.614 100 50 100 22.386 100 0 77.614 0 50 0 22.386 22.386 0 50 0 z" 
+    transform="matrix(0.912532949915958,0,0,1.1121495327104898,17.000000000200146,30.00000000019986)"
+  />
+  <path 
+    style="fill: none; stroke: #189ab4; stroke-linecap: round; stroke-width: 15;" 
+    d="M50 0 C77.614 0 100 22.386 100 50 100 77.614 77.614 100 50 100 22.386 100 0 77.614 0 50 0 22.386 22.386 0 50 0 z" 
+    transform="matrix(0.912532949915958,0,0,1.1121495327104898,65.37109375020009,30.51171875019986)"
+  />
+</svg>
