@@ -11,7 +11,6 @@
   },
   "scripts": {
     "start": "serve -s client/build",
-    "build": "cd client && npm install && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "cacheDirectories": [
