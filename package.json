@@ -2,6 +2,9 @@
   "name": "bridge-portal",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
@@ -10,13 +13,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "serve -s client/build",
+    "dev": "react-scripts start",
+    "build": "cd client && npm install && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "browserslist": {
     "production": [
