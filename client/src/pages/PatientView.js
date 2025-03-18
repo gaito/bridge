@@ -368,7 +368,7 @@ const PatientView = () => {
                   _hover={{ bg: 'brand.navy', color: 'white' }}
                   onClick={() => handlePharmacyChange(selectedPrescription?.id, pharmacy)}
                 >
-                  🏥 {pharmacy}
+                  {pharmacy}
                 </Button>
               ))}
             </VStack>
